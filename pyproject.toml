@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pcrweb-costopt_jd318"
+name = "pcrweb-slo_blame_chain_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别推理成本优化顾问·SLO 违约的归因链路的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://pcrweb.github.io"
-Repository = "https://github.com/pcrweb/costopt_jd318"
-Issues = "https://github.com/pcrweb/costopt_jd318/issues"
+Repository = "https://github.com/pcrweb/slo_blame_chain_signature_match"
+Issues = "https://github.com/pcrweb/slo_blame_chain_signature_match/issues"
 
 [project.scripts]
-costopt_jd318 = "costopt_jd318:main"
+slo_blame_chain_signature_match = "slo_blame_chain_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["costopt_jd318"]
+py-modules = ["slo_blame_chain_signature_match"]
